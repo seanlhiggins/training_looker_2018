@@ -10,7 +10,7 @@ datagroup: training_looker_2018_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
-
+#test comment
 persist_with: training_looker_2018_default_datagroup
 
 explore: distribution_centers {}
